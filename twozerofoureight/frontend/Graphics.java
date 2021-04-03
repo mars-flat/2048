@@ -100,20 +100,18 @@ public class Graphics implements GlobalConstants {
 		instance.textAlign(pa, pb);
 	}
 	
-	public static void text(String msg, int x, int y) {
-		instance.text(msg, x, y);
-	}
-	
 	public static void text(String msg, float x, float y, float w, float h) {
 		instance.text(msg, x, y, w, h);
+	}
+	
+	public static void text(String msg, float x, float y) {
+		instance.text(msg, x, y);
 	}
 	
 	public static void exit() {
 		instance.exit();
 	}
-	public static void text(String msg, float x, float y) {
-		instance.text(msg, x, y);
-	}
+	
 	
 }
 
